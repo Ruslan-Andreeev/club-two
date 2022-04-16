@@ -1,0 +1,53 @@
+.hero
+    background: url('../img/hero.jpg') no-repeat center/cover
+    padding-top: 104px
+    padding-bottom: 141px
+    margin-bottom: 62px
+    h1
+        font-weight: 900
+        font-size: 93px
+        line-height: 112px
+        color: #FFF
+        margin-bottom: 14px
+        animation-duration: 6s
+        animation-name: slidein
+    p
+        font-weight: 500
+        font-size: 25px
+        line-height: 32px
+        color: #FFF
+        max-width: 420px
+        margin-bottom: 40px
+        animation-duration: 5s
+        animation-name: slidein
+    span
+        font-weight: 500
+        font-size: 25px
+        line-height: 32px
+        color: #fff
+        margin-bottom: 40px
+        display: block
+        animation-duration: 4s
+        animation-name: slidein
+    &-btn
+        padding: 22px 60px
+        background: $yellow
+        font-size: 18px
+        color: $blue
+        width: max-content
+        box-shadow: inset 0px 6.04444px 6.04444px rgba(255, 255, 255, 0.25)
+        border-radius: 7.55556px
+        cursor: pointer
+        transition: .3s
+        &:hover
+            transition: .3s
+            background: #ecbf19
+
+@keyframes slidein
+    from
+        margin-left: 100%
+        width: 300%
+
+    to
+        margin-left: 0%
+        width: 100%

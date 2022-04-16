@@ -1,0 +1,179 @@
+.programs
+    margin-bottom: 170px
+    &-content
+        &-top
+            h2
+                max-width: 649px
+                margin: auto
+                margin-bottom: 44px
+            .top-wrap
+                display: flex
+                justify-content: space-between
+                align-items: flex-start
+                flex-basis: 100%
+                &-block
+                    border-radius: 30px
+                    width: 50%
+                    padding-top: 40px
+                    padding-bottom: 40px
+                    transition: .3s
+                    position: relative
+                    z-index: 2
+                    cursor: pointer
+                    &:hover
+                        transition: .3s
+                        background: #F1F7FD
+
+                    &-hover
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+                        img
+                            width: 547px
+                            height: 372px
+                            object-fit: contain
+                            margin-bottom: 41px
+                            border-radius: 30px
+
+                        h3
+                            font-size: 35px
+                            line-height: 33px
+                            color: $lightBlue
+                            text-align: center
+                            font-weight: 600
+                            max-width: 383px
+                            margin: auto
+                        &-circle
+                            width: 180px
+                            height: 180px
+                            border-radius: 50%
+                            background: $yellow
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            position: absolute
+                            left: 20px
+                            top: 20px
+                            span
+                                font-size: 34px
+                                line-height: 38px
+                                color: $blue
+                                font-weight: 600
+                                max-width: 108px
+                                display: block
+
+        &-bot
+            margin-top: 145px
+            .bot-wrap
+                h2
+                    max-width: 649px
+                    margin: auto
+                    font-weight: 600
+                    margin-bottom: 62px
+                &-content
+                    display: flex
+                    align-items: center
+                    justify-content: space-between
+                    position: relative
+                    &::after
+                        content: ''
+                        position: absolute
+                        left: -65px
+                        top: -65px
+                        width: 141px
+                        height: 141px
+                        background: url('../img/star.svg') no-repeat center/contain
+                    &-block
+                        width: 362px
+                        padding-bottom: 99px
+                        box-shadow: 18px 14px 17px -5px rgba(0, 0, 0, 0.05)
+                        border-radius: 0px 50px 50px 0px
+                        img
+                            width: 100%
+                            height: 229px
+                            object-fit: cover
+                            margin-bottom: 28px
+                        h4
+                            max-width: 280px
+                            text-align: center
+                            margin: auto
+                            font-size: 22px
+                            line-height: 28px
+                            color: $lightBlue
+                            margin-bottom: 20px
+                            font-weight: 600
+                        p
+                            font-size: 18px
+                            line-height: 23px
+                            color: #898989
+                            text-align: center
+                            margin: auto
+                            max-width: 300px
+.programs-wrap
+    margin-bottom: 101px                            
+.programs-new
+    p
+        max-width: 508px
+        color: $blue
+        font-size: 20px
+        line-height: 24px
+        font-weight: 600
+        margin: auto
+        margin-top: 52px
+        margin-bottom: 44px
+        text-align: center
+    h4
+        font-size: 20px
+        line-height: 24px
+        text-transform: uppercase
+        color: $lightBlue
+        margin-bottom: 26px
+        font-weight: 600
+        text-align: center
+    ul
+        list-style: none
+        margin-bottom: 45px
+        li
+            max-width: 403px
+            margin: auto
+            margin-bottom: 20px
+            font-size: 17px
+            line-height: 20px
+            font-weight: 500
+            color: $blue
+            position: relative
+            &::after
+                content: ''
+                position: absolute
+                left: -23px
+                top: 4px
+                width: 16px
+                height: 16px
+                background: url('../img/star-programs.svg') no-repeat center/contain
+            &:last-child
+                margin-bottom: 0
+    span
+        display: block
+        text-align: center
+        margin: auto
+        font-size: 17px
+        line-height: 20px
+        font-weight: 500
+        color: $blue
+        margin-bottom: 30px
+        max-width: 421px
+    .programs-btn
+        background: $yellow
+        font-size: 24px
+        line-height: 29px
+        color: $blue
+        font-weight: 600
+        padding: 26px 95px
+        box-shadow: inset 0px 8.15534px 8.15534px rgba(255, 255, 255, 0.25)
+        border-radius: 10.1942px
+        width: max-content
+        margin: auto
+        transition: .3s
+        &:hover
+            transition: .3s
+            background: #ecbf19

@@ -1,0 +1,129 @@
+.header
+    &-top
+        display: flex
+        align-items: center
+        padding-top: 15px
+        padding-bottom: 15px
+        justify-content: space-evenly
+        position: relative
+        z-index: 2
+        &::after
+            content: ''
+            background: #F1F7FD
+            width: 220%
+            height: 100%
+            left: -60%
+            top: 0
+            position: absolute
+            z-index: -1
+        &-address
+            display: flex
+            align-items: center
+            address
+                margin-left: 10px
+                font-style: normal
+                color: $blue
+                font-size: 14px
+                line-height: 17px
+            img
+                width: 13px
+                height: 18px
+        &-mail
+            display: flex
+            align-items: center
+            a
+                color: $blue
+                font-size: 14px
+                line-height: 17px
+                margin-left: 10px
+                transition: .3s
+                &:hover
+                    transition: .3s
+                    color: $yellow
+            img
+                width: 22px
+                height: 18px
+        &-phone
+            display: flex
+            align-items: center
+            a
+                color: $blue
+                font-size: 14px
+                line-height: 17px
+                margin-left: 10px
+                transition: .3s
+                &:hover
+                    transition: .3s
+                    color: $yellow
+            img
+                width: 16px
+                height: 16px
+        &-social
+            a
+                margin-left: 5px
+                margin-right: 5px
+    &-bot
+        position: relative
+        z-index: 3
+        &::after
+            content: ''
+            position: absolute
+            left: -70%
+            top: 0
+            height: 100%
+            width: 220%
+            background: #2C71B6
+            z-index: -1
+        .content
+            display: flex
+            justify-content: space-between
+            align-items: center
+            &-logo
+                display: flex
+                align-items: center
+                cursor: pointer
+                img
+                    width: 101px
+                    height: 101px
+                &-text
+                    h1
+                        font-size: 12px
+                        color: #FFF
+                        font-weight: 600
+                        max-width: 117px
+                        line-height: 15px
+                    span
+                        color: #fff
+                        font-size: 6px
+                        line-height: 7px
+                        display: block
+            &-nav
+                ul
+                    list-style: none
+                    display: flex
+                    li
+                        margin-left: 21px
+                        margin-right: 21px
+                        a
+                            font-size: 18px
+                            line-height: 21px
+                            font-weight: 600
+                            color: #fff
+                            transition: .3s
+                            &:hover
+                                transition: .3s
+                                color: $yellow
+            &-btn
+                &-header
+                    font-weight: 600
+                    font-size: 12px
+                    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25)
+                    border-radius: 5px
+                    padding: 15px 38px
+                    color: $blue
+                    background: $yellow
+                    cursor: pointer
+                    transition: .3s
+                    &:hover
+                        transition: .3s
+                        background: #ecbf19
